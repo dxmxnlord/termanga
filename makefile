@@ -11,7 +11,8 @@ install:
 	cp -rp ./termanga-main/* /home/$${user}/Termanga/; \
 	touch termanga.sh; \
 	echo "#!/bin/bash" >> termanga.sh; \
-	echo "./home/$${user}/Termanga/main/app/menu.sh" >> termanga.sh; \
+	echo "cd /home/$${user}/Termanga/main/app/" >> termanga.sh; \
+	echo "./menu.sh" >> termanga.sh; \
 	chmod 777 termanga.sh; \
 	sudo cp termanga.sh /usr/bin/; \
 	mv /usr/bin/termanga.sh /usr/bin/termanga; \
