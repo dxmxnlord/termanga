@@ -9,13 +9,14 @@ install:
 	@export user=$(shell cat user.txt); \
 	mkdir /home/$${user}/Termanga/; \
 	cp -rp ./termanga-main/* /home/$${user}/Termanga/; \
+	chmod +x /home/$${user}/Termanga/main/app/*; \
 	touch termanga.sh; \
 	echo "#!/bin/bash" >> termanga.sh; \
 	echo "cd /home/$${user}/Termanga/main/app/" >> termanga.sh; \
 	echo "./menu.sh" >> termanga.sh; \
 	chmod 777 termanga.sh; \
 	sudo cp termanga.sh /usr/bin/; \
-	mv /usr/bin/termanga.sh /usr/bin/termanga; \
+	sudo mv /usr/bin/termanga.sh /usr/bin/termanga; \
 	echo "finishing up...";
 	@cd ..; \
 	rm -fr termanga
