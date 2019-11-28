@@ -1,0 +1,8 @@
+1. add other source
+2. list alphabetically by pre sorting the chapters.json
+3. store in .cache
+4. navigator fucks up with fast inputs
+5. search saved chapters
+6. paginate search results
+7. prettify output
+8. async downloaddd
