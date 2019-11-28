@@ -1,8 +1,8 @@
 # Termanga
 ###### A console application to download and read manga written purely in python and bash ♥
 
-![Screenshot](Screenshot1.jpeg)
-![Screenshot](Screenshot3.jpeg)
+![Screenshot](screenshot1.jpg)
+![Screenshot](screenshot3.png)
 
 ## Dependencies
 - #### `beautifulsoup4` (py)
