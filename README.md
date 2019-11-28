@@ -45,4 +45,4 @@
 #### **It is recommended to use a half screen width terminal for reading**
 
 ## Future Improvements
-#### This is a work in progress project but I'm shelving it for a while ( I'll pick it up if I ever get bored), so if you're interested in helping out, please do. Some of the stuff I still have to impliment is listed out in the `todo.txt` file. Cheers!  
+#### This is a work in progress project but I'm shelving it for a while ( I'll pick it up if I ever get bored ), so if you're interested in helping out, please do. Some of the stuff I still have to implement is listed out in the `todo.txt` file. Cheers!  
