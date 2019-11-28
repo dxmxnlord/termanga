@@ -6,7 +6,7 @@ default:
 install: 
 	@echo "installing termanga..."
 	@echo "copying files to appropriate directories..."
-	@export user=$(shell cat user.txt);
+	@export user=$(shell cat user.txt); \
 	mkdir /home/$${user}/Termanga/; \
 	cp -rp ./termanga-main/* /home/$${user}/Termanga/; \
 	touch termanga.sh; \
